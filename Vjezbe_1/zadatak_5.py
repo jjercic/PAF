@@ -16,10 +16,18 @@ def pravac(xa, ya, xb, yb):
     plt.title("Pravac")
     plt.xlabel("X")
     plt.ylabel("Y")
+
     plt.plot(xs, ys)
     plt.plot(xa, ya, marker="o")
     plt.plot(xb, yb, marker="o")
-
-    plt.show()
+    
+    opt = input("Spremi graf (S) ili Prikaži graf (P): ")
+    if opt == "P":
+        plt.show()
+    elif opt == "S":
+        name = input("Upišite ime pod kojim ćete spremiti graf: ")
+        plt.savefig(name)
+    else:
+        print("Greška!")
 
 pravac(1, 2, 4, 8)
