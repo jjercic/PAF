@@ -26,6 +26,7 @@ def pravac(xa, ya, xb, yb):
         plt.show()
     elif opt == "S":
         name = input("Upišite ime pod kojim ćete spremiti graf: ")
+        name += ".pdf"
         plt.savefig(name)
     else:
         print("Greška!")
