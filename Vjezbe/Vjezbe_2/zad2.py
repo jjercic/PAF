@@ -18,7 +18,6 @@ vy = v0 * np.sin(theta * np.pi/180) - g * dt
 
 x = vx * dt + np.zeros(50)
 y = vy * dt - 0.5 * g * dt * dt
-print(x)
 
 #x-y
 plt.title("x - y")
