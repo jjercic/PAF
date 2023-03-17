@@ -11,7 +11,7 @@ m = int(input("Iznos mase čestice m u kg: "))
 dt = 10
 
 a = F / m
-v0 = 0 ##početna brzina je nula?
+v0 = 0
 v = v0 + a*dt
 s = v0*dt + 0.5*a*dt*dt
 
