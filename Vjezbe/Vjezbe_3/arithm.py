@@ -3,18 +3,19 @@
 ##Formula za aritmetičku sredinu je dana u 1, a za standardnu devijaciju u 2. 
 ##(b) Napišite program pod (a) koristeći gotove module.
 import numpy as np
+# (a)
 def sredina(nums):
+    return sum(nums)/len(nums)
+
+def std_dev(nums):
     N = len(nums)
-    return sum(nums)/N
+    sigma = np.sqrt(sum((num - sredina(nums))**2 for num in nums)/(N*(N-1)))
+    return sigma
 
-def st_dev(nums):
-    av = sredina(nums)
-    N = len(nums)
+tocke = [1,2,3,4,5,6,7,8,9,10]
+print("Prosječna vrijednost točke iznosi {} +/- {}".format(sredina(tocke), std_dev(tocke)))
 
-    for num in nums:
-        num = (num - av)**2
-    sigma = np.sqrt(sum(nums)/(N*(N-1)))
-    print(sigma)
+# (b)
+print(np.std(tocke))
+print(np.average(tocke))
 
-a = [2,4,6,8,10,12,14,16,18,20]
-st_dev(a)
