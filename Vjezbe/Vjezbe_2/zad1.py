@@ -12,8 +12,8 @@ dt = 10
 
 a = F / m
 v0 = 0
-v = v0 + a*dt
-s = v0*dt + 0.5*a*dt*dt
+##v = v0 + a*dt
+##s = v0*dt + 0.5*a*dt*dt
 
 #a-t
 plt.title("a - t")

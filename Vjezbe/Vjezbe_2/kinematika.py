@@ -7,9 +7,6 @@ import matplotlib.pyplot as plt
 
 def jednoliko_gibanje(F, m, dt):
     a = F / m
-    v0 = 0
-    v = v0 + a*dt
-    s = v0*dt + 0.5*a*dt*dt
 
     #a-t
     plt.subplot(1,3,1)
@@ -62,8 +59,6 @@ def kosi_hitac(v0, theta, t):
         vx.append(v0 * np.cos(theta))
         if i != 0:
             vy.append(vy[i - 1] - g * dt)
-        i += 1
-
 
     x = []
     y = []
@@ -73,7 +68,6 @@ def kosi_hitac(v0, theta, t):
     for i in range(1, eps):
         x.append(x[i - 1] + vx[i] * dt)
         y.append(y[i - 1] + vy[i] * dt)
-        i += 1
 
     dt = np.linspace(0, t, eps)
 

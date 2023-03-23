@@ -23,8 +23,6 @@ for i in range(eps):
     vx.append(v0 * np.cos(theta))
     if i != 0:
         vy.append(vy[i - 1] - g * dt)
-    i += 1
-
 
 x = []
 y = []
@@ -34,7 +32,6 @@ y.append(vy[0] * dt)
 for i in range(1, eps):
     x.append(x[i - 1] + vx[i] * dt)
     y.append(y[i - 1] + vy[i] * dt)
-    i += 1
 
 dt = np.linspace(0, 10, eps)
 
