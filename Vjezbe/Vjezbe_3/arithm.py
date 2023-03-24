@@ -13,9 +13,9 @@ def std_dev(nums):
     return sigma
 
 tocke = [1,2,3,4,5,6,7,8,9,10]
-print("Prosječna vrijednost točke iznosi {} +/- {}".format(sredina(tocke), std_dev(tocke)))
+print("Prosječna vrijednost iznosi {} +/- {}".format(sredina(tocke), std_dev(tocke)))
 
 # (b)
-print(np.std(tocke))
-print(np.average(tocke))
+print("Aritmetička sredina iznosi: {}".format(np.average(tocke)))
+print("Standardna devijacija iznosi: {}".format(np.std(tocke)/np.sqrt(len(tocke)-1)))
 
