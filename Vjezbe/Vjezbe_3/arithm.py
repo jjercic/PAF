@@ -17,5 +17,5 @@ print("Prosječna vrijednost iznosi {} +/- {}".format(sredina(tocke), std_dev(to
 
 # (b)
 print("Aritmetička sredina iznosi: {}".format(np.average(tocke)))
-print("Standardna devijacija iznosi: {}".format(np.std(tocke)/np.sqrt(len(tocke)-1)))
+print("Standardna devijacija iznosi: {}".format(np.std(tocke) / np.sqrt(len(tocke) - 1)))
 
