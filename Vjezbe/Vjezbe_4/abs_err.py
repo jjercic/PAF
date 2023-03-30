@@ -10,6 +10,7 @@ for t in dt:
     err = 100 * np.abs(p1.range_ana() - p1.range_num())/p1.range_ana()
     error.append(err)
 
+
 plt.title("Apsolutna relativna pogreška dometa projektila")
 plt.xlabel("dt / s")
 plt.ylabel("Apsolutna relativna pogreška / %")        
