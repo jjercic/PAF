@@ -63,8 +63,3 @@ class Particle:
         plt.ylabel("y / m")        
         plt.plot(self.x, self.y)
         plt.show()
-
-
-
-
-
