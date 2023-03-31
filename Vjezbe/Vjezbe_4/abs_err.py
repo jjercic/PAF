@@ -11,7 +11,7 @@ for t in dt:
     error.append(err)
 
 plt.title("Apsolutna relativna pogreška dometa projektila")
-plt.xlabel("dt / s")
-plt.ylabel("Apsolutna relativna pogreška / %")        
+plt.xlabel("dt [s]")
+plt.ylabel("Apsolutna relativna pogreška [%]")        
 plt.plot(dt, error)
 plt.show()

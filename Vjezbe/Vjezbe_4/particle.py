@@ -33,17 +33,23 @@ class Particle:
         self.y_0 = 0
 
     def __move(self):
-        self.v_x.append(self.v0 * np.cos(self.theta * np.pi/180))
-        self.t.append(self.t[-1] + self.dt)
-        self.v_y.append(self.v_y[-1] - g * self.dt)
         self.x.append(self.x[-1] + self.v_x[-1] * self.dt)           
         self.y.append(self.y[-1] + self.v_y[-1] * self.dt)
+        self.v_x.append(self.v0 * np.cos(self.theta * np.pi/180))
+        self.v_y.append(self.v_y[-1] - g * self.dt)
+        self.t.append(self.t[-1] + self.dt)
+        #1xy, 2v, 3a
 
     def reset(self):
         self.v0 = 0
         self.theta = 0
         self.x_0 = 0
         self.y_0 = 0
+        self.v_x = []
+        self.v_y = []
+        self.x = []
+        self.y = []
+        self.t = []
     
     def range_ana(self):
         return self.v_x[0] * (self.v_y[0] + np.sqrt(self.v_y[0]**2 + 2 * g * self.y_0)) / g 
