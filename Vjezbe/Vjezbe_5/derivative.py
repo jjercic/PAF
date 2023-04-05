@@ -14,12 +14,13 @@ df_ana = 15*x_ana**2 - 4*x_ana + 2
 num_1 = calc.segment_derivative(fun_cub, -2, 2, eps = 0.01)
 num_2 = calc.segment_derivative(fun_cub, -2, 2, eps = 0.1)
 
-plt.title("Derivacija")
-plt.xlabel("x")
-plt.ylabel("f'(x)")
+plt.title("Derivacija", size = 18)
+plt.xlabel("$x$", size = 14)
+plt.ylabel('$f\'(x)$', size = 14)
 
-plt.plot(x_ana, df_ana)
-plt.plot(num_1[0], num_1[1])
-plt.plot(num_2[0], num_2[1])
+plt.plot(x_ana, df_ana, label = "Analitička derivacija")
+plt.plot(num_1[0], num_1[1], label = "$\epsilon = 0.01$")
+plt.plot(num_2[0], num_2[1], label = "$\epsilon = 0.1$")
+plt.legend()
 
 plt.show()

@@ -8,9 +8,9 @@ def fun_trig(x):
 def fun_cub(x):
     return 2*x**2 + 3
 
-plt.title("Integral", size = 18)
-plt.xlabel("N", size = 14)
-plt.ylabel("$\int_{0}^{1}\ (2x^2 + 3)\ dx\ $", size = 14)
+plt.title("Integral")
+plt.xlabel("N")
+plt.ylabel("Integral")
 
 N = np.arange(50, 1000, 50)
 int_trap = []
@@ -22,11 +22,10 @@ for n_i in N:
     int_up.append(calc.integrate_rect(fun_cub, 0, 1, n = n_i)[0])
     int_down.append(calc.integrate_rect(fun_cub, 0, 1, n = n_i)[1])
 
-plt.axhline(y = 11/3, label = "Integral")
-plt.scatter(N, int_trap, label = "Metoda trapeza")
-plt.scatter(N, int_up, label = "Gornja integralna suma")
-plt.scatter(N, int_down, label = "Donja integralna suma")
-plt.legend()
+plt.scatter(N, int_trap)
+plt.scatter(N, int_up)
+plt.scatter(N, int_down)
+plt.axhline(y = 11/3)
 
 plt.show()
 
