@@ -22,5 +22,5 @@ plt.plot(x_ana, df_ana, label = "Analitička derivacija")
 plt.plot(num_1[0], num_1[1], label = "$\epsilon = 0.01$")
 plt.plot(num_2[0], num_2[1], label = "$\epsilon = 0.1$")
 plt.legend()
-
+#plt.savefig("derivacija.pdf", bbox_inches = "tight", pad_inches = 0.5)
 plt.show()

@@ -27,6 +27,5 @@ plt.scatter(N, int_trap, label = "Metoda trapeza")
 plt.scatter(N, int_up, label = "Gornja integralna suma")
 plt.scatter(N, int_down, label = "Donja integralna suma")
 plt.legend()
-
+#plt.savefig("integral.pdf", bbox_inches = "tight", pad_inches = 0.5)
 plt.show()
-
