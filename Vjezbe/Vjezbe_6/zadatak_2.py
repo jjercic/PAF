@@ -36,8 +36,6 @@ for i in range(len(dts)):
 plt.legend()
 plt.show()
 
-
-
 """
 def analitic_T(m, k):
     omega = np.sqrt(k / m)
@@ -56,5 +54,4 @@ plt.xlabel("$dt$ [s]")
 plt.ylabel("Error [%]")
 plt.plot(dt, err)
 plt.show()
-
 """

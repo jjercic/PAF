@@ -67,10 +67,7 @@ class HarmonicOscillator:
     def period(self):
         self.reset()
         self.gibanje()
-        if(self.x0 != 0):
-
-            #xmax = [xi for xi in self.x if xi/self.x0 > 0.999]
-            #xmin = [xi for xi in self.x if xi/(-self.x0) > 0.999]            
+        if(self.x0 != 0):        
             
             xmax = [xi for xi in self.x if xi - self.x0 < 1e-6]
             xmin = [xi for xi in self.x if xi + self.x0 < 1e-6]
