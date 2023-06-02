@@ -1,5 +1,4 @@
 import numpy as np
-from numpy import linalg as lin
 
 au = 1.486e11
 G = 6.67408e-11
