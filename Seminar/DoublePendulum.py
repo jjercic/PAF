@@ -5,7 +5,7 @@ from matplotlib.animation import FuncAnimation
 g = 9.81
 
 class DoublePendulum:
-    def __init__(self, l1 = 1.5, l2 = 1, m1 = 1.5, m2 = 1, theta1 = 90, theta2 = 0, omega1 = 10, omega2 = -8, T = 5, dt = 0.01):
+    def __init__(self, l1 = 1.5, l2 = 1, m1 = 1.5, m2 = 1, theta1 = 90, theta2 = 90, omega1 = 0, omega2 = 0, T = 5, dt = 0.01):
         #duljine njihala
         self.l1 = l1
         self.l2 = l2
@@ -82,13 +82,13 @@ class DoublePendulum:
         self.pend1, = ax.plot([], [], 'bo-')
         self.pend2, = ax.plot([], [], 'go-')
         self.timer_text = ax.text(
-            0.05,
-            0.95,
+            0.1,
+            0.9,
             "",
-            transform=ax.transAxes,
-            ha="left",
-            va="top",
-            fontsize=12
+            transform = ax.transAxes,
+            ha = "left",
+            va = "top",
+            fontsize = 10
         )
         self.animation = FuncAnimation(
             fig,
