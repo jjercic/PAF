@@ -1,0 +1,406 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.10.11)  12 JUN 2023 02:58
+entering extended mode
+**./double_pendulum.tex
+(double_pendulum.tex
+LaTeX2e <2018-04-01> patch level 5
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\base\artic
+le.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\base\size1
+2.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\babel\ba
+bel.sty
+Package: babel 2018/06/05 3.22 The Babel package
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\babel\sw
+itch.def
+File: switch.def 2018/06/05 3.22 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\arabi\bblo
+pts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\babel-engl
+ish\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\babel\ba
+bel.def
+File: babel.def 2018/06/05 3.22 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\babel\tx
+tbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@american = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\base\input
+enc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsmath\am
+smath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsmath\am
+stext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsmath\am
+sgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen104
+))
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsmath\am
+sbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsmath\am
+sopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks17
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks18
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsfonts\a
+mssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsfonts\a
+msfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\graphics\g
+raphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\graphics\k
+eyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\graphics\g
+raphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\graphics\t
+rig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\graphics-c
+fg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\graphics-d
+ef\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\xcolor\xco
+lor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\graphics-c
+fg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\tools\tabu
+larx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\tools\arra
+y.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen115
+\ar@mcellbox=\box28
+\extrarowheight=\dimen116
+\NC@list=\toks22
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box29
+)
+\TX@col@width=\dimen117
+\TX@old@table=\dimen118
+\TX@old@col=\dimen119
+\TX@target=\dimen120
+\TX@delta=\dimen121
+\TX@cols=\count102
+\TX@ftn=\toks23
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\lipsum\lip
+sum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count103
+) (double_pendulum.aux)
+\openout1 = `double_pendulum.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\context\base\sup
+p-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen122
+\scratchbox=\box30
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen123
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks25
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\oberdiek\e
+pstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\oberdiek
+\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\oberdiek\g
+rfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\oberdiek
+\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\oberdiek
+\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\oberdiek\k
+voptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\oberdiek
+\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\oberdiek
+\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\oberdiek
+\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\oberdiek
+\pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\generic\oberdiek
+\ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsfonts\u
+msa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+
+(C:\Users\38591\Desktop\LaTteX\LaTeX\MiKTeX\texmfs\install\tex\latex\amsfonts\u
+msb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<dp_fig1.png, id=1, 523.20468pt x 329.73187pt>
+File: dp_fig1.png Graphic file (type png)
+<use dp_fig1.png>
+Package pdftex.def Info: dp_fig1.png  used on input line 56.
+(pdftex.def)             Requested size: 199.16928pt x 125.51575pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+{C:/Users/38591/Desktop/LaTteX/LaTeX/MiKTeX/texmfs/data/pdftex/config/pdftex.ma
+p}]
+Overfull \hbox (12.60509pt too wide) detected at line 66
+\OML/cmm/m/it/12 ![] \OT1/cmr/m/n/12 = []
+ []
+
+<trajectory122.png, id=14, 1387.584pt x 733.5405pt>
+File: trajectory122.png Graphic file (type png)
+<use trajectory122.png>
+Package pdftex.def Info: trajectory122.png  used on input line 80.
+(pdftex.def)             Requested size: 145.10922pt x 76.70502pt.
+<trajectory.png, id=15, 1387.584pt x 733.5405pt>
+File: trajectory.png Graphic file (type png)
+<use trajectory.png>
+Package pdftex.def Info: trajectory.png  used on input line 81.
+(pdftex.def)             Requested size: 145.10922pt x 76.70502pt.
+<trajectory85.png, id=16, 1387.584pt x 733.5405pt>
+File: trajectory85.png Graphic file (type png)
+<use trajectory85.png>
+Package pdftex.def Info: trajectory85.png  used on input line 82.
+(pdftex.def)             Requested size: 145.10922pt x 76.70502pt.
+
+Overfull \hbox (1.62688pt too wide) in paragraph at lines 70--86
+\OT1/cmr/m/n/12 hove derivacije koje su nu-mericki rijesene ko-risteci for-m
+ule nave-dene u Uvodu. Izracunate
+ []
+
+[2 <./dp_fig1.png>] [3 <./trajectory122.png> <./trajectory.png> <./trajectory85
+.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]\OT1/cmr/m/n/12 https://physics.stackexchange.com/questions/724082/kinetic-en
+ergy-of-double-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]\OT1/cmr/m/n/12 https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/dou
+ble-pendulum-
+ []
+
+[4] (double_pendulum.aux) ) 
+Here is how much of TeX's memory you used:
+ 3652 strings out of 494872
+ 50064 string characters out of 3178143
+ 228571 words of memory out of 3000000
+ 7207 multiletter control sequences out of 15000+200000
+ 10150 words of font info for 38 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 41i,7n,35p,1475b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/38591/Desktop/LaTteX/LaTeX/MiKTeX/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/38591/Desktop/LaTteX
+/LaTeX/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
+s/38591/Desktop/LaTteX/LaTeX/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb><C:/Users/38591/Desktop/LaTteX/LaTeX/MiKTeX/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/38591/Desktop/LaTteX/LaTeX/MiKTeX/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/38591/Desktop/L
+aTteX/LaTeX/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/38591/Desktop/LaTteX/LaTeX/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb><C:/Users/38591/Desktop/LaTteX/LaTeX/MiKTeX/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/38591/Desktop/LaTteX/LaTeX/MiK
+TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on double_pendulum.pdf (4 pages, 475985 bytes).
+PDF statistics:
+ 60 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
